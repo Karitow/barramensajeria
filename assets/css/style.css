@@ -1,0 +1,163 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display:flex;
+    min-height: 100vh;
+    width:100%;
+}
+
+i {
+    color: #828485;
+}
+
+.maria{
+    border-radius: 90px;
+    width:70px;
+    height:70px;
+    text-align:left;
+    align-items:left;
+    justify-content:end;
+}
+
+img.container{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.barra{
+    border-radius: 70px;
+    width:50px;
+    height:50px;
+    text-align:start;
+    align-items:start;
+    border-left:1px;
+    justify-content:start;
+}
+
+.boton{
+    padding: 20px;
+    background-color: white;
+    height:80px;
+    width:220px;
+    text-align:center;
+    align-items:center;
+    border:#abb0b4 1px solid;
+    justify-content: center;
+    display:flex;
+    }
+
+button {
+    background-color: #A491D2;
+    border:#A491D2;
+    color:#E8EBE4;
+    width: 160px;
+    padding:20px;
+    align-items:center;
+    font-size: 15px;
+ }
+
+h3 {
+    color:#E8EBE4;
+    font-size:12px;
+}
+
+.circular {
+    display:flex;
+    flex-direction:row;
+    padding:15px;
+    border:#abb0b4 1px solid; 
+    justify-content:space-between;
+}
+
+.texto{
+    align-self:center;
+    background-color:#A491D2;
+}
+
+.iconos {
+    justify-content:space-between;
+    margin-left:20px;
+}
+
+.nombre{
+    margin-left: 10px;
+
+}
+
+.flex-item{
+    border: solid 1px #abb0b4;
+    display:flex;
+    flex-direction:row;
+    padding: 10px;
+}
+
+.casilla{
+    border: solid 1px #abb0b4;
+    display:flex;
+    flex-direction:row;
+    padding: 0px;
+    width: 100%;
+    justify-content: center;
+    text-align:center;
+    align-items:center;
+}
+
+
+h5 {
+    font-size: 14px;
+    color: #444749;
+    text-align: left;
+}
+
+p {
+    font-size: 10px;
+    color: #444749;
+    display:flex;
+    flex-direction:column;
+}
+
+h4 {
+    font-size: 14px;
+    color: #1b1f21;
+}
+
+menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: white;
+    width:250px;
+    color:#1B1F21;
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    background-color: #E8EBE4;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+.hand{
+    width:300px;
+    height:300px;
+}
+
+h1 {
+    color: #444749;
+    font-size:28px;
+}
+
+h4 {
+    color: #444749;
+    font-size: 14px;
+}
